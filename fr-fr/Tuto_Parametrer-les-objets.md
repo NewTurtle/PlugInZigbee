@@ -59,6 +59,9 @@ Il est important de suivre le formalisme suivant :  { 'parametre1': valeur, 'par
 | RTCZCGQ11LMMotionSensibility |	Sensibilité de la détection | 1=faible 2=moyenne 3=haute | Presence Detector FP1 RTCZCGQ11LM |
 | RTCZCGQ11LMApproachDistance |	Sensibilité de la distance de detection  |  0=loin 1=moyenne 2=proche |	Presence Detector FP1 RTCZCGQ11LM |
 | RTCZCGQ11LMMonitoringMode |	Orientation de la detection  | 0=de tous cotés sans differenciation 1=Gauche/Droite possibilité de detecter le sens d'entré et de sorti  | Presence Detector FP1 RTCZCGQ11LM |
+| TuyaMotoReversal | Gestion du sens du moteur. Utilisé avec le Curtain Smart Switch | 0=Sens standard (UP pour Ouverture / DOWN pour fermeture), 1=Sens Inversé | Tuya TS130F __TZ3000_ltiqubue |
+| TuyaBackLight | Rétroéclairage du bouton actif sur le Curtain Smart Switch | 0=Rétroéclairage du bouton actif, 1=Pas de rétroéclairage | Tuya TS130F __TZ3000_ltiqubue |
+| moesCalibrationTime | Durée de fonctionnement du moteur durant les phases d'ouverture/fermeture | Dixième de seconde (10=1s) | Tuya TS130F __TZ3000_ltiqubue |
 
 *Cette page est issue d'une traduction : il est possible que le tableau ci-dessus ne soit pas à jour. Se référer à la [page originale](../en-eng/HowTo_Device-parameters.md) en anglais.*
 
